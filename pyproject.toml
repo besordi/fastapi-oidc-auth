@@ -9,7 +9,7 @@ repository = "https://github.com/busykoala/fastapi-oidc-auth"
 keywords = ["fastapi", "oidc", "authentication"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<4.0"
 fastapi = "^0.63.0"
 PyJWT = {extras = ["crypto"], version = "^2.0.1"}
 requests = "^2.25.1"
